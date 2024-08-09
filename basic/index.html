@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Reprodutor de Áudios</title>
+</head>
+<body>
+    <h1>Aprenda Inglês com Frases</h1>
+    <input type="text" id="audioCode" placeholder="Digite o código do áudio">
+    <button onclick="playAudio()">Play</button>
+    <button onclick="previousAudio()">Anterior</button>
+    <button onclick="nextAudio()">Próximo</button>
+    <audio id="audioPlayer"></audio>
+    <p>
+        <br/>
+        <br/>
+        <label id="labelCurrentAudio">1</label>
+    </p>
+    <script src="script.js"></script>
+</body>
+</html>

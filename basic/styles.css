@@ -1,0 +1,32 @@
+/* Estilize conforme sua preferência */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+input {
+    width: 200px;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #0074D9;
+    color: #FFF;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+label {
+    display: inline-block;
+    background-color: #cbc8c8;
+    font-size: 22px;
+    padding: 20px 50px;
+    border-radius: 5px;
+}
